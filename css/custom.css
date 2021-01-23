@@ -1,1 +1,130 @@
 /* Your custom css code goes here */
+*{
+        box-sizing: border-box;
+}
+a{
+        text-decoration: none;
+}
+ul.green{
+        padding:0px;
+        text-align: center;
+        list-style:none;
+}
+.probootstrap-main{
+        text-align: center;
+}
+.probootstrap-text.res{
+        padding:0px;
+        margin-top:-170px;
+}
+.probootstrap-text .heading-bg{
+        text-align:left;
+}
+.heading{
+        margin-top:10px;
+        margin-bottom:20px;
+}
+.heading-bg{
+        font-size: 50px;
+        color:#39ECB3;
+        margin:0px;
+        padding-left:5px;
+}
+.rule{
+        margin-top:20px;
+        margin-left: 5px;
+        display: block;
+        width:47vw;
+        height: 1px;
+        background-color: #39ECB3;
+}
+.green{
+        color: #39ECB3;
+}
+.heading-md{
+        font-size:35px;
+        color: #39ECB3;
+        margin-top:20px;
+}
+.heading-md span{
+        padding:8px;
+        margin:10px 0px;
+        border-radius: 8px;
+        display:inline-block;
+        background-color:#39ECB3;
+        color:white;
+}
+.heading-grn-bg{
+        color:#39ECB3;
+        font-size:50px;
+        margin-bottom:60px;
+}
+.social-icons{
+        font-size:30px;
+
+}
+.social-icons ul{
+        list-style: none;
+        padding:0;
+}
+.social-icons ul li{
+        display: inline-block;
+        margin:0 20px 0 0;
+        
+}
+.social-icons ul li a{
+        padding:5px 10px;
+        text-align: center;
+        text-decoration: none;
+}
+.social-icons ul li a:hover{
+        color:white;
+        background-color:rgba(57, 236, 179,0.4);
+        border-radius:30%;
+}
+
+.btn-center{
+        text-align: center;
+}
+
+@media screen and (min-width:414px){
+        .bg-skills{
+                background-image: url(/img/bg-skills.jpg);
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+        }
+        .probootstrap-main{
+                text-align: left;
+        }
+        .probootstrap-text.res{
+                padding:0px;
+                margin-top:0px;
+        }
+        .rule{
+                display: none;
+        }
+        .heading-bg{             
+                font-size: 60px;  
+                padding-left:0px;
+        }
+        .heading-md{
+                font-size:40px;
+                margin-top:50px;
+        }
+        ul.green{
+               text-align: left;
+                list-style:none;
+        }
+        ul.green li{
+                display: inline-block;
+                background-color: #39ECB3;
+                padding:5px 8px;
+                color:white;
+                border-radius:5px;
+                margin:0px 5px 5px 0px;
+        }
+}
+
+
+
