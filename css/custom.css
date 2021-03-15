@@ -5,6 +5,25 @@
 a{
         text-decoration: none;
 }
+.p-0{
+        padding:0px;            
+}
+.p-sm{
+        padding:20px;
+}
+.p-md{
+        padding:40px;
+}
+.p-lg{
+        padding:60px;
+}
+.bck-bgrd{
+        background-color:black;
+}
+.h4{
+        color: black;
+        font-size:26px;
+}
 ul.green{
         padding:0px;
         text-align: center;
