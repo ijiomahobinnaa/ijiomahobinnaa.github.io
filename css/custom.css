@@ -8,6 +8,18 @@ a{
 hr{
         color: transparent;
 }
+.pt-0{
+        padding-top:0px;            
+}
+.pt-sm{
+        padding-top:20px;
+}
+.pt-md{
+        padding-top:40px;
+}
+.pt-lg{
+        padding-top:60px;
+}
 .p-0{
         padding:0px;            
 }
@@ -39,9 +51,8 @@ ul.green{
 .probootstrap-main{
         text-align: center;
 }
-.probootstrap-text.res{
-        padding:0px;
-        margin-top:-170px;
+.probootstrap-image{
+        background-image: url(../img/image_1_sm.jpg);
 }
 .probootstrap-text .heading-bg{
         text-align:left;
@@ -105,8 +116,8 @@ ul.green{
 }
 .social-icons ul li a:hover{
         color:white;
-        background-color:rgba(57, 236, 179,0.4);
-        border-radius:30%;
+        background-color:rgba(57, 236, 179,0.8);
+        border-radius:20%;
 }
 
 .btn-center{
@@ -122,6 +133,9 @@ ul.green{
         }
         .probootstrap-main{
                 text-align: left;
+        }
+        .probootstrap-image{
+                background-image: url(../img/image_1.jpg);
         }
         .probootstrap-text.res{
                 padding:0px;
